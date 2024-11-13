@@ -5,7 +5,7 @@ import TaskSelector from './components/TaskSelector';
 import StepsSlider from './components/StepsSlider';
 import InputOutput from './components/InputOutput';
 import FeedbackRating from './components/FeedbackRating';
-import { processRequest, saveFeedback } from './lib/mockBackend';
+import { processRequest, saveFeedback } from './lib/backend';
 import { formatError } from './lib/utils';
 
 export default function App() {
